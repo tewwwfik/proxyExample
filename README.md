@@ -1,4 +1,4 @@
-# proxyExample
+# Proxy Example
 A Simple Rest Proxy Server written in golang.
 
 you can find example curl requests in curl_commands.txt
