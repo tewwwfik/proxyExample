@@ -1,0 +1,10 @@
+curl -X GET \
+  -H "Content-type: application/json" \
+  -H "Accept: application/json" \
+  -d '{"method":"GET HTTP 1.1", "url": "http://www.yahoo.com"}' \
+  "http://localhost:8080"
+
+curl --location --request GET 'http://localhost:8080' \
+--header 'Content-type: application/json' \
+--header 'Accept: application/json' \
+--data-raw '{"method":"GET HTTP 1.1", "url": "http://krudoind.com"}'
